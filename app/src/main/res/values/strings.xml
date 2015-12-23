@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">New Contact</string>
+
+    <string name="textview">Cowabunga, I love my app!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button">Update The TextView</string>
+    <string name="description">Description</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="comment">Comment</string>
+    <string name="hint">A Name</string>
+    <string name="title_activity_thisisatest">thisisatest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_make_a_contact">New contact</string>
+</resources>
