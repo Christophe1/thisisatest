@@ -5,12 +5,20 @@
     android:orientation="vertical"
     tools:context="com.example.chris.omgandroid.thisisatest">
 
+
+
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@android:id/list"
         android:isScrollContainer="false"
- />
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <TextView android:id="@+id/calllog"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        />
 
 
         <EditText
@@ -48,7 +56,7 @@
             android:id="@+id/imageButton"
             android:layout_alignParentBottom="true"
             android:layout_toRightOf="@+id/textView3"
-            android:onClick="Show_Settings"/>
+            android:onClick="showPopUp"/>
 
 
 </RelativeLayout>
